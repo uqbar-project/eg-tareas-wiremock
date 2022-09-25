@@ -1,0 +1,26 @@
+{
+  "id" : "53ebc4e9-2270-317c-bda6-836e85e6277c",
+  "scenarioName": "Tareas",
+  "requiredScenarioState": "Tarea asignada",
+  "newScenarioState": "Tarea cumplida",
+  "request" : {
+    "url" : "/tareas/4",
+    "method" : "PUT",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\n  \"id\": 4,\n  \"descripcion\": \"Correr tests e2e\",\n  \"iteracion\": \"Iteración 1\",\n  \"porcentajeCumplimiento\": 100,\n  \"asignadoA\": \"Nahuel Palumbo\",\n  \"fecha\": \"10/02/2020\"\n}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-tareas-put-cumplida.json",
+    "headers" : {
+      "Vary" : [ "Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers" ],
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 23 Sep 2022 11:53:28 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "53ebc4e9-2270-317c-bda6-836e85e6277c"
+}

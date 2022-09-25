@@ -1,0 +1,18 @@
+{
+  "id" : "be766424-a7e1-3358-a0f9-372177cb9a28",
+  "request" : {
+    "url" : "/usuarios",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-usuarios-getAll.json",
+    "headers" : {
+      "Vary" : [ "Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers" ],
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 23 Sep 2022 11:53:14 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "be766424-a7e1-3358-a0f9-372177cb9a28"
+}

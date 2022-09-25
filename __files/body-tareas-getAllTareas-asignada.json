@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Aprender Wiremock",
+    "iteracion": "Iteración 1",
+    "porcentajeCumplimiento": 0,
+    "asignadoA": "Juan Contardo",
+    "fecha": "23/09/2022"
+  },
+  {
+    "id": 2,
+    "descripcion": "Generar diapositivas de Wiremock",
+    "iteracion": "Iteración 1",
+    "porcentajeCumplimiento": 76,
+    "asignadoA": null,
+    "fecha": "09/09/2018"
+  },
+  {
+    "id": 3,
+    "descripcion": "Integrar Wiremock con Springboot",
+    "iteracion": "Iteración 1",
+    "porcentajeCumplimiento": 22,
+    "asignadoA": "Rodrigo Grisolia",
+    "fecha": "16/07/2022"
+  },
+  {
+    "id": 4,
+    "descripcion": "Correr tests e2e",
+    "iteracion": "Iteración 1",
+    "porcentajeCumplimiento": 0,
+    "asignadoA": "Nahuel Palumbo",
+    "fecha": "10/02/2020"
+  }
+]

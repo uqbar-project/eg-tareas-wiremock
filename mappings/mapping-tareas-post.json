@@ -1,0 +1,26 @@
+{
+  "id" : "7f297b18-9390-3dda-99b6-e07298353895",
+  "scenarioName": "Tareas",
+  "requiredScenarioState": "Started",
+  "newScenarioState": "Nueva tarea agregada",
+  "request" : {
+    "url" : "/tareas",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\n  \"descripcion\": \"Correr tests e2e\",\n  \"iteracion\": \"Iteración 1\",\n  \"porcentajeCumplimiento\": 0,\n  \"fecha\": \"10/02/2020\"\n}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-tareas-post.json",
+    "headers" : {
+      "Vary" : [ "Origin", "Access-Control-Request-Method", "Access-Control-Request-Headers" ],
+      "Content-Type" : "application/json",
+      "Date" : "Fri, 23 Sep 2022 11:53:37 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "7f297b18-9390-3dda-99b6-e07298353895"
+}

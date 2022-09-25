@@ -1,0 +1,24 @@
+{
+  "id": "6cdffe4e-a10f-3b7c-bf52-db23bdd6e389",
+  "scenarioName": "Tareas",
+  "requiredScenarioState": "Tarea asignada",
+  "request": {
+    "url": "/tareas",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "body-tareas-getAllTareas-asignada.json",
+    "headers": {
+      "Vary": [
+        "Origin",
+        "Access-Control-Request-Method",
+        "Access-Control-Request-Headers"
+      ],
+      "Content-Type": "application/json",
+      "Date": "Fri, 23 Sep 2022 11:52:43 GMT",
+      "Keep-Alive": "timeout=60"
+    }
+  },
+  "uuid": "6cdffe4e-a10f-3b7c-bf52-db23bdd6e388"
+}
