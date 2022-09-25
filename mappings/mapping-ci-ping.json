@@ -1,0 +1,10 @@
+{
+    "request": {
+        "method": "HEAD",
+        "url": "/"
+    },
+    "response": {
+        "status": 200,
+        "statusMessage": "Everything was just fine!"
+    }
+}
