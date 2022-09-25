@@ -55,4 +55,5 @@ Para poder testear todo el flujo de las tareas siguiendo un camino feliz, tuvimo
 
 ## Más información
 
+- [Documentación oficial de Wiremock](https://wiremock.org/docs/download-and-installation/)
 - Podés ver [esta charla de Rosanne Joosten](https://www.youtube.com/watch?v=ddUMyLsDkLw&ab_channel=Devoxx) donde cuenta algunas características de Wiremock.
